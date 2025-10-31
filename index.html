@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AvtoSalon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <video autoplay loop muted playsinline class="bg-video">
+    <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+  </video>
+
+  <nav class="navbar">
+    <h2 class="logo">Avto<span>Salon</span></h2>
+    <div class="links">
+      <a href="#">Bosh Sahifa</a>
+      <a href="#">Avtomobillar</a>
+      <a href="#">Biz Haqimizda</a>
+      <a href="#">Bog'lanish</a>
+    </div>
+    <button class="theme-btn">Mavzuni O‘zgartirish</button>
+  </nav>
+
+
+  <!-- Bosh sahifa qismi -->
+
+  <div class="quti">
+    <h2>Orzuyingizdagi Avtomobilni Toping</h2>
+    <p>Eng so'nggi modellar, ajoyib narxlar va ishonchli xizmat.</p>
+    <a href="#cars" class="cta-button">Hoziroq Ko'rish</a>
+  </div>
+
+  <!-- mashinalar qismi -->
+  <div class="daurrrr">
+    <h1>Mavjud Avtomobillar</h1>
+    <div></div>
+  </div>
+
+
+  <!-- mashinalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+  <!-- Avtomobil kartalari -->
+  <section class="cars" id="cars">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg" alt="Sportcar">
+      <h3>Elektr Sportkar</h3>
+      <p><b>Yili:</b> 2025</p>
+      <p><b>Dvigatel:</b> Elektr</p>
+      <p><b>Rangi:</b> Qizil</p>
+      <p class="price">$95,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://www.supercars.net/blog/wp-content/uploads/2016/08/maxresdefault-13.jpg" alt="Sedan">
+      <h3>Shahar Sedani</h3>
+      <p><b>Yili:</b> 2024</p>
+      <p><b>Dvigatel:</b> 2.0L Turbo</p>
+      <p><b>Rangi:</b> Ko‘k</p>
+      <p class="price">$42,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg" alt="SUV">
+      <h3>Oilaviy SUV</h3>
+      <p><b>Yili:</b> 2025</p>
+      <p><b>Dvigatel:</b> 3.5L V6</p>
+      <p><b>Rangi:</b> Qora</p>
+      <p class="price">$58,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg" alt="Ferrari">
+      <h3>Ferrari Supercar</h3>
+      <p><b>Yili:</b> 2024</p>
+      <p><b>Dvigatel:</b> V8 Turbo</p>
+      <p><b>Rangi:</b> Qizil</p>
+      <p class="price">$120,000</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg" alt="McLaren">
+      <h3>McLaren 720S</h3>
+      <p><b>Yili:</b> 2023</p>
+      <p><b>Dvigatel:</b> 4.0L V8</p>
+      <p><b>Rangi:</b> Oq</p>
+      <p class="price">$200,000</p>
+    </div>
+  </section>
+
+
+  <!-- Biz haqimizda bo'limiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii -->
+  <section class="section">
+    <h2>Bizning Kompaniya Haqida</h2>
+    <p><strong>AvtoSalon</strong> - bu yillar davomida o‘z mijozlariga eng yaxshi avtomobillarni taqdim etib kelayotgan
+      ishonchli hamkor. Bizning maqsadimiz — har bir mijozning ehtiyojiga mos keladigan, sifatli va hamyonbop transport
+      vositasini topishga yordam berish.</p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>Keng Tanlov</h3>
+        <p>Sedanlardan tortib SUVlargacha, har qanday didga mos avtomobillar.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Kafolatli Sifat</h3>
+        <p>Barcha avtomobillarimiz texnik ko‘rikdan o‘tkazilgan va kafolatga ega.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Professional Xizmat</h3>
+        <p>Tajribali mutaxassislarimiz sizga to‘g‘ri tanlov qilishda yordam beradi.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- biz bn boglaniiiiiiiiiiiasdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+
+  <section class="contact">
+    <h2 class="contact-title">Biz Bilan Bog'laning</h2>
+    <form id="contactForm" class="contact-form">
+      <label for="name">Ismingiz:</label>
+      <input type="text" id="name" name="name" placeholder="Ismingizni kiriting" />
+
+      <label for="email">Email Manzilingiz:</label>
+      <input type="email" id="email" name="email" placeholder="Email manzilingiz" />
+
+      <label for="message">Xabar:</label>
+      <textarea id="message" name="message" placeholder="Xabaringizni yozing"></textarea>
+
+      <button type="submit">Yuborish</button>
+    </form>
+  </section>
+
+
+
+  <div class="samirelllo">
+    <h3>Hammasi nazoratim ostida havotirga hojat yoq</h3>
+    <p>©Ma'lumot uchun bu sayt 31.10.2025-yilda soat 21:21da( Dilshodov Samir San'at o'g'li tomonidan qilindi. ) </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
